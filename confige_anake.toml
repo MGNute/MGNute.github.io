@@ -1,0 +1,36 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "Michael Nute"
+theme = "ananke"
+#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+toc = true
+
+
+[[menu.main]]
+    name = "About Me"
+    url = "page/aboutme/"
+    weight = 1
+
+[[menu.main]]
+    name = "Links"
+    url = "page/links/"
+    weight = 2
+
+[[menu.main]]
+    name = "Research"
+    url = "page/research/"
+    weight = 3
+
+#[[menu.main]]
+#    name = "Publications"
+#    url = "page/publications/"
+#    weight = 4
+#
+#[[menu.main]]
+#    name = "Blog"
+#    url = "blog"
+#    weight = 5
+
+[params]
+  body_classes = "helvetica bg-near-white"
+  

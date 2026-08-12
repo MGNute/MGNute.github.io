@@ -1,0 +1,23 @@
+/* Minimal white header & footer with dark text (overrides Ananke's dark defaults) */
+header .bg-white, footer.bg-white { background-color: #ffffff !important; }
+
+/* nav: site title + menu links dark */
+header nav a, header nav a.white-90 { color: #1b2430 !important; }
+header nav a:hover, header nav a.hover-white:hover { color: #5a6b7b !important; }
+
+/* page title dark instead of light-silver */
+header h1.light-silver { color: #1b2430 !important; }
+
+/* social icons dark (header + footer) */
+header .ananke-socials a, header .ananke-socials svg,
+footer .ananke-socials a, footer .ananke-socials svg { color: #1b2430 !important; fill: #1b2430 !important; }
+
+/* footer text dark */
+footer.bg-white, footer.bg-white a,
+footer .white-70, footer .white-80, footer .white-90 { color: #3a4653 !important; }
+
+/* tighten the tall header block and add a light divider under the bar */
+header > div.bg-white { padding-bottom: 1.25rem !important; border-bottom: 1px solid #ececec; }
+
+/* pure-white page background (Ananke defaults to a faint gray body) */
+html, body, .bg-ananke { background-color: #ffffff !important; }

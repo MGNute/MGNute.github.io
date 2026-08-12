@@ -1,0 +1,12 @@
+# Hugo build output — regenerated on every build, never committed
+/public/
+/resources/
+.hugo_build.lock
+
+# The theme is fetched automatically during publishing (see .github/workflows/hugo.yml).
+# Ignoring it here keeps your repo clean and avoids the old nested-git-submodule mess.
+/themes/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

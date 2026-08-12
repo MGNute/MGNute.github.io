@@ -1,0 +1,71 @@
+baseURL = "https://mgnute.github.io/"
+languageCode = "en-us"
+title = "Mike Nute"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 8
+
+[markup.goldmark.renderer]
+  unsafe = true   # allow the raw HTML/image anchors used in your existing content
+
+[params]
+  defaultTheme = "light"          # white background by default
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowPostNavLinks = true
+  mainSections = ["blog"]         # homepage lists blog posts only (not projects/about)
+
+  # A clean personal landing block at the top of the homepage
+  [params.homeInfoParams]
+    Title = "Mike Nute"
+    Content = """
+My name is Mike Nute and I'm a Research Scientist in the Treangen Lab at Rice University, where our lab develops bioinformatics algorithms to study microbial communities. This is my semi-professional site — mostly research and related topics, with the occasional personal sidebar.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/MGNute"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/michael-nute-98057b23"
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/michaelnute"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=E1v2MBUAAAAJ"
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/@michaelnute"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:mike.nute@gmail.com"
+
+# Top navigation bar
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/aboutme/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -8,7 +8,7 @@ layout = "about"
 
 # Professional Stuff
 
-I'm currently a Research Scientist within the Treangen Lab at Rice University where I work on computational biology specifically for microbial genomics. My career has traveled an interesting road though, with stints in management consulting, insurance, then to academia where I did a Ph.D. in Statistics and went into postdoc and Research Scientist roles after. More on my background can be found here (TODO).
+I'm currently a Research Scientist within the Treangen Lab at Rice University where I work on computational biology specifically for microbial genomics. My career has traveled an interesting road though, with stints in management consulting, insurance, then to academia where I did a Ph.D. in Statistics and went into postdoc and Research Scientist roles after. More on my background can be found [here](/blog/career_background_20260813/).
 
 
 # Personal Stuff
@@ -28,4 +28,4 @@ Here are some of the volunteer activities I've participated in over the years:
 
 # Contact
 
-The best way to reach me is by email.
+My contact info is all on the home screen, although the best way to reach me is proably by [email](mailto:mike.nute@gmail.com).

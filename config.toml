@@ -14,6 +14,15 @@ enableEmoji = true
 
 [params]
   defaultTheme = "light"          # white background by default
+  [params.profileMode]
+    enabled = true
+    title = "Mike Nute"
+    subtitle = "Research Scientist in the Treangen Lab at Rice University — bioinformatics algorithms for microbial communities."
+    imageUrl = "img/mike_headshot.jpg"
+    imageTitle = "Mike Nute"
+    imageWidth = 165
+    imageHeight = 220
+
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -27,6 +36,8 @@ enableEmoji = true
     Title = "Mike Nute"
     Content = """
 My name is Mike Nute and I'm a Research Scientist in the Treangen Lab at Rice University, where our lab develops bioinformatics algorithms to study microbial communities. This is my semi-professional site — mostly research and related topics, with the occasional personal sidebar.
+
+My [previous website](https://publish.illinois.edu/michaelnute) from grad school is still up, though it's well out of date by now.
 """
 
   [[params.socialIcons]]
@@ -63,8 +74,8 @@ My name is Mike Nute and I'm a Research Scientist in the Treangen Lab at Rice Un
     url = "/blog/"
     weight = 3
   [[menu.main]]
-    name = "Search"
-    url = "/search/"
+    name = "C.V."
+    url = "/Michael_Nute_CV_Public.pdf"
     weight = 4
 
 [outputs]

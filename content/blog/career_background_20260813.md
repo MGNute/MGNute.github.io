@@ -3,7 +3,7 @@ title = "More on my background"
 description = "My career journey so far, in brief."
 author = "Mike Nute"
 date = "2026-08-13"
-draft = true
+draft = false
 # tags = ["markdown", "css", "html", "themes"]
 # categories = ["themes", "syntax"]
 +++
